@@ -1,8 +1,6 @@
 Testsuite: RationalTest
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec
 ------------- Standard Output ---------------
-Constructor Called
-Constructor Called
 Constructor Called
 Constructor Called
 Constructor Called
@@ -14,7 +12,7 @@ Constructor Called
 Testcase: testAdd took 0.005 sec
 Testcase: testSubtract took 0 sec
 Testcase: testEqual took 0 sec
-Testcase: testToString took 0.018 sec
+Testcase: testToString took 0.023 sec
 Testcase: testCompareTo took 0 sec
 Testcase: testDivide took 0 sec
 Testcase: testMultiply took 0 sec

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Promubsorns-mac.local" name="RationalTest" skipped="0" tests="8" time="0.252" timestamp="2023-09-12T08:08:04">
+  <properties>
+    <property name="gopherProxySet" value="false" />
+    <property name="ant.library.dir" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="11" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.base:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.compiler:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.datatransfer:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.desktop:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.instrument:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.logging:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.management:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.management.rmi:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.naming:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.net.http:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.prefs:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.rmi:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.scripting:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.se:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.security.jgss:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.security.sasl:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.smartcardio:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.sql:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.sql.rowset:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.transaction.xa:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.xml:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/java.xml.crypto:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.accessibility:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.aot:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.attach:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.charsets:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.compiler:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.crypto.cryptoki:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.crypto.ec:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.dynalink:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.editpad:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.hotspot.agent:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.httpserver:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.internal.ed:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.internal.jvmstat:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.internal.le:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.internal.opt:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.internal.vm.ci:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.internal.vm.compiler:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.internal.vm.compiler.management:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jartool:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.javadoc:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jcmd:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jconsole:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jdeps:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jdi:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jdwp.agent:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jfr:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jlink:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jshell:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jsobject:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.jstatd:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.localedata:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.management:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.management.agent:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.management.jfr:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.naming.dns:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.naming.ldap:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.naming.rmi:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.net:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.pack:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.rmic:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.scripting.nashorn:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.scripting.nashorn.shell:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.sctp:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.security.auth:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.security.jgss:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.unsupported:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.unsupported.desktop:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.xml.dom:/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home!/jdk.zipfs:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar" />
+    <property name="java.vm.vendor" value="Eclipse Foundation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="https://adoptium.net/" />
+    <property name="user.timezone" value="" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="user.country" value="TH" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/lib" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile /Users/promubsorn/Desktop/temp/4th-year/ITCS473 QA/Homework/Rational/build.xml test" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/Users/promubsorn" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2021-07-20" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home" />
+    <property name="file.separator" value="/" />
+    <property name="basedir" value="/Users/promubsorn/Desktop/temp/4th-year/ITCS473 QA/Homework/Rational" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.java.version" value="11" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.runtime.version" value="11.0.12+7" />
+    <property name="user.name" value="promubsorn" />
+    <property name="ant.file" value="/Users/promubsorn/Desktop/temp/4th-year/ITCS473 QA/Homework/Rational/build.xml" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="11.5" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="java.vendor.version" value="Temurin-11.0.12+7" />
+    <property name="ant.core.lib" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues" />
+    <property name="java.io.tmpdir" value="/var/folders/7p/77yc2q0n6hj5_m9m8sz9gww00000gn/T/" />
+    <property name="java.version" value="11.0.12" />
+    <property name="user.dir" value="/Users/promubsorn/Desktop/temp/4th-year/ITCS473 QA/Homework/Rational" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="ant.home" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+    <property name="java.library.path" value="/Users/promubsorn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor" value="Eclipse Foundation" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="11.0.12+7" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.class.version" value="55.0" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.008" />
+  <testcase classname="RationalTest" name="testSubtract" time="0.0" />
+  <testcase classname="RationalTest" name="testEqual" time="0.001" />
+  <testcase classname="RationalTest" name="testToString" time="0.025" />
+  <testcase classname="RationalTest" name="testCompareTo" time="0.0" />
+  <testcase classname="RationalTest" name="testDivide" time="0.001" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <testcase classname="RationalTest" name="testConstructor" time="0.0" />
+  <system-out><![CDATA[Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

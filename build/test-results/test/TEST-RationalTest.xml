@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RationalTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-09-12T08:19:55" hostname="Promubsorns-mac.local" time="0.043">
+  <properties/>
+  <testcase name="testAdd" classname="RationalTest" time="0.006"/>
+  <testcase name="testSubtract" classname="RationalTest" time="0.001"/>
+  <testcase name="testEqual" classname="RationalTest" time="0.0"/>
+  <testcase name="testToString" classname="RationalTest" time="0.029"/>
+  <testcase name="testCompareTo" classname="RationalTest" time="0.001"/>
+  <testcase name="testDivide" classname="RationalTest" time="0.0"/>
+  <testcase name="testMultiply" classname="RationalTest" time="0.001"/>
+  <testcase name="testConstructor" classname="RationalTest" time="0.0"/>
+  <system-out><![CDATA[Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+Constructor Called
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Promubsorns-mac.local" name="RationalTest" skipped="0" tests="8" time="0.252" timestamp="2023-09-12T08:08:04">
+<testsuite errors="0" failures="0" hostname="Promubsorns-mac" name="RationalTest" skipped="0" tests="8" time="0.078" timestamp="2023-09-12T13:57:39">
   <properties>
     <property name="gopherProxySet" value="false" />
     <property name="ant.library.dir" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib" />
@@ -66,12 +66,12 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="java.class.version" value="55.0" />
   </properties>
-  <testcase classname="RationalTest" name="testAdd" time="0.008" />
+  <testcase classname="RationalTest" name="testAdd" time="0.006" />
   <testcase classname="RationalTest" name="testSubtract" time="0.0" />
-  <testcase classname="RationalTest" name="testEqual" time="0.001" />
-  <testcase classname="RationalTest" name="testToString" time="0.025" />
+  <testcase classname="RationalTest" name="testEqual" time="0.0" />
+  <testcase classname="RationalTest" name="testToString" time="0.018" />
   <testcase classname="RationalTest" name="testCompareTo" time="0.0" />
-  <testcase classname="RationalTest" name="testDivide" time="0.001" />
+  <testcase classname="RationalTest" name="testDivide" time="0.0" />
   <testcase classname="RationalTest" name="testMultiply" time="0.0" />
   <testcase classname="RationalTest" name="testConstructor" time="0.0" />
   <system-out><![CDATA[Constructor Called

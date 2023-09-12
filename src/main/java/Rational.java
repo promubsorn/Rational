@@ -18,7 +18,6 @@ class Rational {
         // to be completed
         this.numerator = numerator;
         this.denominator = denominator;
-        simplestForm();
     } 
 
     // find the reduce form 
@@ -87,8 +86,8 @@ class Rational {
     public boolean equals(Object x) {
         // to be completed
         if ( x instanceof Rational) {
-            Rational y = (Rational) x;
-            return (numerator == y.numerator) && (denominator == y.denominator); // TODO: This needs to be modified
+            divide((Rational) x);
+            return (numerator == 1) && (denominator == 1); // TODO: This needs to be modified
         } else return false;
     }
 

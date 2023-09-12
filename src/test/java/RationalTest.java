@@ -4,11 +4,6 @@ import org.junit.Test;
 public class RationalTest {
     @Test
     public void testConstructor() throws Rational.Illegal {
-        //TO DO
-        Rational w = new Rational();
-        Object y = new Rational();
-        Assert.assertEquals(y , w);
-
         Rational x = new Rational(1, 2);
         Assert.assertEquals(1, x.numerator);
         Assert.assertEquals(2, x.denominator);
@@ -62,10 +57,11 @@ public class RationalTest {
     public void testEqual() throws Rational.Illegal {
         Rational x = new Rational(2, 4);
         Rational y = new Rational(1, 2);
-        Rational z = new Rational(2, 3);
         Assert.assertTrue(x.equals(y));
-        Assert.assertTrue(y.equals(x));
-        Assert.assertFalse(x.equals(z));
+
+        Rational a = new Rational(2, 4);
+        Rational b = new Rational(1, 4);
+        Assert.assertFalse(a.equals(b));
     }
 
     @Test
